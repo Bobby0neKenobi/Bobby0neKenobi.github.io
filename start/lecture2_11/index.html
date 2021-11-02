@@ -32,6 +32,12 @@
       import {Vec} from './Vec.js';
 
       console.clear();
+
+      const a = new Vec();
+      const b = new Vec(4, 0);
+      const c = new Vec(4, 3);
+      
+      console.log(`The distance from a to c is ${a.distenceTo(c).toFixed(2)}`);
       
     </script>
 </body>
